@@ -1,0 +1,37 @@
+/* .ant-upload-wrapper.ant-upload-picture-card-wrapper
+  .ant-upload.ant-upload-select {
+  width: 190px !important;
+  height: 140px !important;
+}
+
+img {
+  max-width: max-content;
+} */
+
+.ant-pro-layout {
+  background-color: #0077F4 !important;
+}
+
+.ant-layout-header {
+  background-color: #0077F4 !important;
+}
+.ant-pro-layout .ant-menu-item:hover {
+  color: #fff !important; /* Force hover text color */
+}
+.ant-pro-layout .ant-menu-item-selected {
+  position: relative;
+}
+
+.ant-pro-layout .ant-menu-item-selected::after {
+  content: "";
+  position: absolute;
+  bottom: 5; /* Adjusts triangle position */
+  left: 0%;
+  transform: translateX(50%) rotate(180deg);
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #ffffff; /* Change to your preferred color */
+}
+
